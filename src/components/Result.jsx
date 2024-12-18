@@ -8,7 +8,7 @@ export default function Result({ correctAnswers, totalQuestions, handleRestart }
   return (
     <div className="container">
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <div className="flex flex-col items-center gap-6 box-border w-[500px] h-auto py-10 rounded-lg px-7 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
+        <div className="flex flex-col items-center gap-6 box-border w-[358px] sm:w-[500px] h-auto py-10 rounded-lg px-7 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
           <div className="w-full mb-2 text-xl font-semibold text-center text-warna-400 font-poppins">
             You have successfully completed the quiz!
           </div>

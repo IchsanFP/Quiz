@@ -34,7 +34,7 @@ export default function Login() {
   return (
     <div className="container">
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <div className="flex flex-col gap-6 box-border w-[400px] h-auto py-10 rounded-lg px-7 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
+        <div className="flex flex-col gap-6 box-border w-[358px] sm:w-[400px] h-auto py-10 rounded-lg px-7 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
           <div className="w-full text-[32px] text-center mb-2 text-warna-400 font-semibold font-poppins">Log in</div>
           
           <div className="flex flex-col gap-1">

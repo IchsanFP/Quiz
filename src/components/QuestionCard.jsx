@@ -26,7 +26,7 @@ export default function QuestionCard({ id, question, options, correctAnswer, onN
     };
   
     return (
-      <div className="flex flex-col gap-6 box-border w-[650px] h-auto py-10 rounded-lg px-7 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
+      <div className="flex flex-col gap-6 box-border w-[358px] md:w-[650px] h-auto py-10 rounded-lg px-7 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
         <div className="flex items-center justify-between pb-1 border-b-2 border-gray-200">
           <p className="text-base font-semibold font-poppins text-warna-400">
             {id} of {totalQuestions} Question

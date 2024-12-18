@@ -22,13 +22,13 @@ export default function Menu() {
   return (
     <div className="container">
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <div className="flex flex-col gap-3 box-border w-[470px] h-auto py-10 rounded-lg px-8 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
+        <div className="flex flex-col gap-3 box-border w-[358px] sm:w-[470px] h-auto py-10 rounded-lg px-8 bg-warna-200 shadow-lg shadow-warna-50 border-2 border-warna-200">
           <div className="flex justify-between items-center border-b-2 border-gray-200">
             <div className="flex flex-col w-[278px]">
               <h1 className="text-lg font-medium font-poppins text-warna-400">👋Welcome,</h1>
               <p className="text-lg font-semibold font-poppins text-warna-400">{currentUser.name}!</p>
             </div>
-            <button onClick={handleLogout} className="hover:bg-warna-300 w-[90px] h-[40px] p-[10px] bg-warna-400 cursor-pointer rounded-[10px] px-3 py-2 flex items-center justify-center font-poppins font-semibold text-base text-white">
+            <button onClick={handleLogout} className="hover:bg-warna-300 w-[120px] sm:w-[90px] h-[40px] p-[10px] bg-warna-400 cursor-pointer rounded-[10px] px-3 py-2 flex items-center justify-center font-poppins font-semibold text-base text-white">
               Log Out
             </button>
           </div>
